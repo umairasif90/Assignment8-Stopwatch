@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="screen">
+            <span id="miniutes" class="miniutes">00</span>:
+            <span id="seconds" class="seconds">00</span>:
+            <span id="hundreds" class="hundreds">00</span>
+        </h1>
+        <div class="buttons">
+            <button id="start" onclick="start(); this.disabled=true;">start</button>  
+            <button id="pause" disabled=true; onclick="stop()">pause</button> 
+            <button id="reset" disabled=true; onclick="reset()">reset</button>        
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
